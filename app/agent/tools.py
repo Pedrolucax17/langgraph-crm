@@ -15,5 +15,6 @@ def add_client(
 
 @tool
 def find_client(query:str):
+    """Procura um cliente no banco de dados."""
     return {"message": "Cliente adicionado"}
 
